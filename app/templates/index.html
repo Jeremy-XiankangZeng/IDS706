@@ -49,7 +49,7 @@
         <div class="tm-hero-text-container-inner">
             <h2 class="tm-hero-title">Sentiment Analysis</h2>
             <p class="tm-hero-subtitle">
-              <br />by Jeremy, Qingying, Yuwei, Zihao
+              <br />by Jeremy, Qingying, Yuwei, Zihao (Team ZLLZ)
             </p>
         </div>
       </div>
@@ -88,14 +88,23 @@
 
         <div class="row tm-section-pad-top">
           <div class="col-lg-4">
-            <h4 class="text-center tm-text-primary mb-4">ASW lambda</h4>
+            <h4 class="text-center tm-text-primary mb-4">ASW Lambda</h4>
             <p>
               Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
               nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
               Duis imperdiet lacus justo.
             </p>
           </div>
-        
+
+        <div class="col-lg-4 mt-5 mt-lg-0">
+          <h4 class="text-center tm-text-primary mb-4">AWS Comprehend</h4>
+          <p>
+            Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit
+            volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi.
+            Vestibulum ante ipsum primis in faucibus.
+          </p>
+        </div>
+
         <div class="col-lg-4 mt-5 mt-lg-0">
           <h4 class="text-center tm-text-primary mb-4">fastText</h4>
           <p>
@@ -103,14 +112,7 @@
               <br>Our fastText model is based on CBOW algorithm, which is fast in training and prediction with accuracy higher than 86%.
           </p>
         </div>
-        <div class="col-lg-4 mt-5 mt-lg-0">
-          <h4 class="text-center tm-text-primary mb-4">Deep Learning</h4>
-          <p>
-            Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit
-            volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi.
-            Vestibulum ante ipsum primis in faucibus.
-          </p>
-        </div>
+
       </div>
 <!--        <hr>-->
 <!--      <div class="d-flex align-items-center tm-intro-item tm-btn-primary">-->
@@ -150,21 +152,27 @@
 <!--                      </a>-->
 <!--                    </div>-->
                   <div class="d-flex align-items-center tm-intro-item tm-btn-primary">
-                  <hr>
+{#                  <hr>#}
                       <form action="/#work" method="get">
                         <input name="user_text" type="text" placeholder="input your text for sentiment analysis" class="tm-input" style="width:1000px;" required />
                         <button type="submit" class="btn tm-btn-submit">Predict</button>
                       </form>
                   </div>
-                  <div class=" mt-5 mt-lg-0">
                     <br>
+                <div class="row ">
+                  <div class="col-lg-12">
                     <h4 class="text-center tm-text-primary mb-4">Your Input: </h4>
-                      <h5 class="text-center">{{ input_text }}</h5>
-                      <br>
-                    <h4 class="text-center tm-text-primary mb-4" type="white-space:nowrap">Sentiment Results:</h4>
-                      <h5 class="text-center">{{ res }}</h5>
+                    <h5 class="text-center">{{ input_text }}</h5>
                   </div>
+                  <div class="col-lg-6">
+                    <h4 class="text-center tm-text-primary mb-4">AWS Comprehend Result:</h4>
+                    <h5 class="text-center">{{ res1 }}</h5>
                   </div>
+                      <div class="col-lg-6">
+                    <h4 class="text-center tm-text-primary mb-4">Our Model Result:</h4>
+                    <h5 class="text-center">{{ res2 }}</h5>
+                  </div>
+                </div>
             </div>        
           </div>
       </div>
@@ -180,7 +188,7 @@
                   <div class="tm-underline-inner"></div>
                 </div>
                 <p class="mb-5">
-                  We are xxx team, Jeremy, Qingying, Yuwei, Zihao, from Duke University and that's project for course IDS 706. <br>
+                  We are Team ZLLZ, Jeremy, Qingying, Yuwei, Zihao, from Duke University and that's project for course IDS 706. <br>
                   Our application is built with Flask framework and deployed on
                   <a rel="nofollow" href="https://aws.amazon.com">Amazon Web Service (AWS)</a> with Docker.
                 </p>
@@ -220,7 +228,7 @@
       </div>
       <footer class="text-center small tm-footer">
           <p class="mb-0">
-            Copyright &copy; 2020 Team xxx
+            Copyright &copy; 2020 Team ZLLZ
           </p>
         </footer>
     </section>
