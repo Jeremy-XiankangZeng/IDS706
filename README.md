@@ -4,7 +4,7 @@ Sentiment analysis is a text mining field that analyzes and extracts people's op
 
 ## Application Architecture
 
-![](https://github.com/Jeremy-XiankangZeng/IDS706/blob/main/app/static/img/Application%20Workflow.png) { width: 250px; }
+![](https://github.com/Jeremy-XiankangZeng/IDS706/blob/main/app/static/img/Application%20Workflow.png)
 
 
 ## Toolkits
