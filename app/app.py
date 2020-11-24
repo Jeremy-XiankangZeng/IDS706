@@ -27,7 +27,7 @@ def index():
         
     else:
         input_text = ''
-        res1 = 'Empty Input'
+        res1 = 'Empty Input1'
         res2 = 'Empty Input'
     
     return render_template('./index.html',input_text=input_text, res1=res1, res2=res1)
