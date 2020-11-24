@@ -8,9 +8,12 @@ Sentiment analysis is a text mining field that analyzes and extracts people's op
 
 
 ## Toolkits
-Tools: Docker, Git, Flask
-Language: Python, shell, HTML/CSS, Javascript
-AWS related: IAM, Cloud9, Comprehend, Lambda, DynamoDB
+Tools: Docker, Git, Flask  
+Language: Python, shell, HTML/CSS, Javascript  
+AWS related: IAM, Cloud9, Comprehend, Lambda, DynamoDB  
 
 ## Team Member
-
+Zihao Lin: zl293@duke.edu    
+Yuwei Zhang: yz667@duke.edu  
+Xiankang Zeng: xz301@duke.edu  
+Qingying Luo: 
